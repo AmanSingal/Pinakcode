@@ -15,7 +15,7 @@ Main Code: fake_detect.py
 
 Module : nlptrain.py
 
-1. Run the code fake_detect on Python
+1. Run the code fake_detect.py on Python
 2. Enter the input for news or message related to covid19
 3. The console predicts the output prints 'Genuine' or 'Fake'
 
