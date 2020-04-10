@@ -1,4 +1,4 @@
-*Covid-19 Fake News Detector*
+__*Covid-19 Fake News Detector*
 
 Fake news can be any content that is not truthful and is generated to convince its readers to believe in something that is not true. 
 The challenge for fake news detection comes with the democratization of news sources, and how easy modern technology makes sharing news 
@@ -9,7 +9,7 @@ The Covid-19 Fake News Detector is a GUI that detects fake news, without comprom
 When a user enters a message in the textbox provided on the interface, it accurately detects whether the news is fake or genuine based on 
 the dataset of sorted messages from various official sources.
 
-In order to run the application on python:
+__In order to run the application on python:
 
 Main Code: fake_detect.py
 
@@ -20,7 +20,7 @@ Module : nlptrain.py
 3. The console predicts the output prints 'Genuine' or 'Fake'
 
 
-Following are the code details for running on Webapp using Django:
+__Following are the code details for running on Webapp using Django:
 
 fake_predict: This is the base project folder for the DJANGO project app.
 
@@ -31,10 +31,23 @@ templates folder contains a file called index.html which contains the  HTML code
 
 Once the user clicks on the submit button the data is sent to the url specified (i.e news).The specific url calls the views.py file isnide the predict app.
 
+Directory structure :
+fake_predict(Main Project folder)
+	|
+	|
+	---fake_predict(root project directory)
+		|_ urls.py
+	|_predict(app)
+		|_urls.py
+		|_views.py 
+		|_nlptrain.py
+		|_fake_detect.py
+	|_templates
+		|_ index.html
+	|
+	|_manage.py
 
 
 
 
 
-
-I
