@@ -31,21 +31,8 @@ templates folder contains a file called index.html which contains the  HTML code
 
 Once the user clicks on the submit button the data is sent to the url specified (i.e news).The specific url calls the views.py file isnide the predict app.
 
-Directory structure :
-fake_predict(Main Project folder)
-	|
-	|
-	---fake_predict(root project directory)
-		|_ urls.py
-	|_predict(app)
-		|_urls.py
-		|_views.py 
-		|_nlptrain.py
-		|_fake_detect.py
-	|_templates
-		|_ index.html
-	|
-	|_manage.py
+![image](https://user-images.githubusercontent.com/63463655/79018843-7238fb00-7b92-11ea-8ad1-7e6cd61856d7.png)
+
 
 
 
